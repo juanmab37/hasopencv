@@ -1,0 +1,84 @@
+
+package: HasOpenCV-0.1.0.0
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: vector-space-0.10.4 mtl-2.2.1 base-4.8.2.0
+              allocated-processor-0.0.2
+install-outcome: ConfigureFailed
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: Boolean-0.2.4
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: base-4.8.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: MemoTrie-0.6.7
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+flags: -examples
+dependencies: newtype-generics-0.5 base-4.8.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: NumInstances-1.4
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: base-4.8.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: allocated-processor-0.0.2
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: vector-space-0.10.4 base-4.8.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: newtype-generics-0.5
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: base-4.8.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: vector-space-0.10.4
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: base-4.8.2.0 NumInstances-1.4 MemoTrie-0.6.7
+              Boolean-0.2.4
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: HasOpenCV-1.0.0
+os: linux
+arch: x86_64
+compiler: ghc-7.10.3
+client: cabal-install-1.22.6.0
+dependencies: vector-space-0.10.4 mtl-2.2.1 base-4.8.2.0
+              allocated-processor-0.0.2
+install-outcome: InstallFailed
+docs-outcome: NotTried
+tests-outcome: NotTried

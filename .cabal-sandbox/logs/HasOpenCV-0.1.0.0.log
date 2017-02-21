@@ -1,0 +1,5 @@
+Configuring HasOpenCV-0.1.0.0...
+setup-Simple-Cabal-1.22.5.0-x86_64-linux-ghc-7.10.3: Duplicate modules in
+library: HOpenCV.CV.CV, HOpenCV.CV.CxCore, HOpenCV.CV.Error,
+HOpenCV.CV.HighGui, HOpenCV.CV.ImgProc, HOpenCV.CV.Util, HOpenCV.CV.Video,
+HOpenCV.OpenCV

@@ -1,0 +1,35 @@
+[1 of 1] Compiling Main             ( dist/dist-sandbox-91a7a7cd/setup/setup.hs, dist/dist-sandbox-91a7a7cd/setup/Main.o )
+Linking ./dist/dist-sandbox-91a7a7cd/setup/setup ...
+Configuring HasOpenCV-1.0.0...
+Building HasOpenCV-1.0.0...
+Preprocessing library HasOpenCV-1.0.0...
+src/HOpenCV/CV/HOpenCV_wrap.cpp: In function ‘CvVideoWriter* wrap_cvCreateVideoWriter(const char*, int, double, int, int)’:
+
+src/HOpenCV/CV/HOpenCV_wrap.cpp:176:30:
+     warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘CvVideoWriter*’ [-Wformat=]
+      printf("Return CVW %d\n",ret);
+                                  ^
+src/HOpenCV/CV/HOpenCV_wrap.cpp: In function ‘int wrap_cvWriteFrame(CvVideoWriter*, const IplImage*)’:
+
+src/HOpenCV/CV/HOpenCV_wrap.cpp:185:33:
+     warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘CvVideoWriter*’ [-Wformat=]
+      printf("Return CVW %d\n",writer);
+                                     ^
+src/HOpenCV/CV/HOpenCV_wrap.cpp: In function ‘CvVideoWriter* wrap_cvCreateVideoWriter(const char*, int, double, int, int)’:
+
+src/HOpenCV/CV/HOpenCV_wrap.cpp:176:30:
+     warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘CvVideoWriter*’ [-Wformat=]
+      printf("Return CVW %d\n",ret);
+                                  ^
+src/HOpenCV/CV/HOpenCV_wrap.cpp: In function ‘int wrap_cvWriteFrame(CvVideoWriter*, const IplImage*)’:
+
+src/HOpenCV/CV/HOpenCV_wrap.cpp:185:33:
+     warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘CvVideoWriter*’ [-Wformat=]
+      printf("Return CVW %d\n",writer);
+                                     ^
+In-place registering HasOpenCV-1.0.0...
+setup: '/usr/bin/ghc' exited with an error:
+ghc: unrecognised flag: --cflags
+unrecognised flag: --libs`
+
+Usage: For basic information, try the `--help' option.
